@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+  }
+    
+  :root {
+    --black: #000000;
+    --redCoral: #fc4445;
+    --aquaish: #73daf3;
+    --lighterpurpleish: #72a6e0;
+  }
+  
+  header {
+    padding: 50px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--aquaish);
+    border-bottom: var(--black) 2px solid;
+  }
+  
+  hr {
+    display: block;
+    position: relative;
+    padding-bottom: 25px;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 2px solid var(--black);
+  }
+  
+  h1 {
+      font-size: 45px;
+      font-weight: bold;
+      letter-spacing: 7px;
+  }
+  
+  header p {
+    font-size: 23px;
+    font-style: oblique;
+    letter-spacing: 4px;
+    padding-top: 30px;
+  }
+  
+  nav {
+      padding-top: 30px;
+      margin-right: 85px;
+      float:inherit;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+  }
+  
+  nav ul li {
+      font-size: 20px;
+      display: inline-block;
+      margin-left: 40px;
+      border: 1.5px solid var(--black);
+      box-sizing: border-box;
+      padding: 10px 25px 10px 25px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  
+  nav ul li:hover {
+      box-shadow: inset 0px 0px 8px var(--lighterpurpleish), 0 0 15px var(--lighterpurpleish);
+      cursor: pointer;
+    }
+  
+  body {
+      background-color: var(--redCoral);
+      font-family: Arial;
+    }
+  
+  h2{
+    font-size: 35px;
+    padding: 25px 0px 25px 0px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    color: var(--black);
+  }
+  
+  .headshot{
+    width: 350px;
+    padding-right: 50px;
+    padding-top: 130px;
+  }
+  
+  p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 130%;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: auto;
+  }
+    /* Center website */
+  
+  .aboutme{
+    display:flex;
+    align-items:flex-start;
+    width:85%;
+    margin:1% auto;
+    padding: 50px;
+    text-align: justify;
+  }
+  
+  .mainimage {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border:var(--black) 1px solid;
+    padding: 30px
+  }
+  
+  .mainimage:hover {
+    box-shadow: inset 0px 0px 8px var(--lighterpurpleish), 0 0 15px var(--lighterpurpleish);
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  .work {
+    margin: 8px -16px;
+    padding-bottom: 100px;
+    text-align: justify;
+  }
+  
+  .work > .column {
+     padding: 8px;
+  }
+    /* Add padding between each column */
+    
+    
+  .column {
+    float: left;
+    width: 33.33%;
+    position: relative;
+  }
+    /* Create three equal columns that floats next to each other */
+  
+  .hovertext {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 25px;
+    padding: 80px;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    color: var(--black);
+    text-align: center;
+  }
+    /* Create the properties for the text that appear when you hover over the images */
+  
+  .hovertext span{
+    background-color: var(--aquaish);
+    border:var(--black) 1px solid;
+  }
+    /* Sets background color for hover text so it shows up better */
+    
+  .column:hover .hovertext {
+    visibility: visible;
+    opacity: 1;
+  }
+    
+  .work:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    /* Clear floats after rows */ 
+  
+  .content {
+    padding: 10px;
+    border:var(--black) 1px solid;
+    padding: 30px
+  }
+    
+  .content:hover {
+    box-shadow: inset 0px 0px 8px var(--lighterpurpleish), 0 0 15px var(--lighterpurpleish);
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  footer {
+     padding: 40px;
+      text-align: center;
+      color: var(--black);
+      background-color: var(--aquaish);
+      padding-top: 25px;
+      float:inherit;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      border-top:var(--black) 2px solid;
+  }
+  
+  footer ul {
+    padding: 40px;
+  }
+  
+  footer ul li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    border: 1.5px solid var(--black);
+    box-sizing: border-box;
+    padding: 10px 25px 10px 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  footer ul li:hover {
+    box-shadow: inset 0px 0px 8px var(--lighterpurpleish), 0 0 15px var(--lighterpurpleish);
+    cursor: pointer;
+  }
+  
+  
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+     /* Responsive layout - makes a two column-layout instead of four columns */
+    
+    
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
