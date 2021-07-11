@@ -1,4 +1,4 @@
-# Portfolio Version 2
+# Portfolio Version 3
 
 This project was undertaken to do a simple update of the webpage that showcases my personal work.
 The original page was created from scratch and employs simple HTML and CSS properties. HTML was done as semantically as possible, and CSS was organized via appearance as is custom. The updates to the original portfolio are the following:
@@ -17,4 +17,4 @@ The original page was created from scratch and employs simple HTML and CSS prope
  ## Results & goals for the future
 The results of this update were achieved: new completed material was added to my portfolio. In the future I would like to consider adding more interesting interactive elements to the page and have more diverse styling. I would also like to add more dynamic elements to the page.
 
-[Link to Updated Portfolio]()
+[Link to Updated Portfolio](https://hannybiggs.github.io/portfolio3/)
