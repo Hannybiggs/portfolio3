@@ -18,3 +18,5 @@ The original page was created from scratch and employs simple HTML and CSS prope
 The results of this update were achieved: new completed material was added to my portfolio. In the future I would like to consider adding more interesting interactive elements to the page and have more diverse styling. I would also like to add more dynamic elements to the page.
 
 [Link to Updated Portfolio](https://hannybiggs.github.io/portfolio3/)
+
+<img src= "https://github.com/Hannybiggs/portfolio3/blob/main/Images/readmeimage3.png?raw=true">
