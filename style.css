@@ -3,8 +3,8 @@
   }
     
   :root {
-    --black: #000000;
-    --redCoral: #fc4445;
+    --black: #000000a9;
+    --redCoral: #fc4444a4;
     --aquaish: #73daf3;
     --lighterpurpleish: #72a6e0;
   }
@@ -80,11 +80,21 @@
     letter-spacing: 4px;
     color: var(--black);
   }
+
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 40px;
+    color: var(--black);
+}
   
   .headshot{
     width: 350px;
     padding-right: 50px;
     padding-top: 130px;
+    padding-bottom: 30px;
   }
   
   p {
@@ -180,8 +190,14 @@
   .content {
     padding: 10px;
     border:var(--black) 1px solid;
-    padding: 30px
-  }
+    padding: 30px;
+    width: 330px;
+    min-height: 320px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    }
     
   .content:hover {
     box-shadow: inset 0px 0px 8px var(--lighterpurpleish), 0 0 15px var(--lighterpurpleish);
